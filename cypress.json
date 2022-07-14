@@ -1,0 +1,19 @@
+{
+  "baseUrl":"https://iprice.my/",
+    "reporter":"mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+  },
+      "video":true,
+      "responseTimeout": 12000,
+      "defaultCommandTimeout": 12000,
+      "viewportWidth": 1000,
+      "viewportHeight": 800,
+      "retries":3
+     
+}
+
