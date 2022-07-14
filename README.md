@@ -3,12 +3,14 @@ This is Demo cypress project with Dockor impletmented and also execute this scri
 
 
 # Pre request to execute the build on your local mechine 
-install Docker on your system 
- for Windows mechine,
- https://docs.docker.com/desktop/install/windows-install/
- for mac mechine,
- https://docs.docker.com/desktop/install/mac-install/
+Install Docker on your system <br />
+ for Windows mechine,<br />
+ https://docs.docker.com/desktop/install/windows-install/<br />
+ for mac mechine,<br />
+ https://docs.docker.com/desktop/install/mac-install/<br />
  
 # Execute the script using following commends 
-docker build -t demo-docker-image . -- build your code with Docker image
-docker-compose run e2e-electron    -- execute the script based on your choices ex[e2e-Electron, e2e-chorem, e2e-firefox] 
+docker build -t demo-docker-image . <br />
+
+run the script based on choices ex[e2e-Electron, e2e-chorem, e2e-firefox] <br />
+docker-compose run e2e-electron   
