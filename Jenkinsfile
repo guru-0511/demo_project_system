@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Clone Git Repo'){
 				steps{
-                    git 'https://github.com/guru-0511/demo_project_system.git'
+                    git clone 'https://github.com/guru-0511/demo_project_system.git'
 		    }
 		}
 		stage('Install Dependencies'){
