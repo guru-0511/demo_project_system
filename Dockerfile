@@ -5,5 +5,5 @@ COPY ./package.json .
 COPY ./package-lock.json .
 COPY ./cypress.json .
 COPY ./cypress ./cypress
-RUN rm -rf node_modules && rm ./package-lock.json && npm install
+RUN npm install --save-dev
 ENTRYPOINT ["npm", "run"]
