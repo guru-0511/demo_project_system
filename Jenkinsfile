@@ -3,18 +3,17 @@ pipeline {
 	stages {
 		stage('Clone Git Repo'){
 				steps{
-					
                     sh "git clone https://github.com/guru-0511/demo_project_system.git"
 		    }
 		}
-		stage('Install Dependencies'){
+		stage('Docker build'){
 				steps{
-					sh 'npm install'
+					sh 'docker build -t demo-docker-image .'
 				}
 		}
-		stage('Run Cypress Tests'){
+		stage('Docker compose with electron'){
 				steps{
-					sh 'npm run'
+					sh 'docker-compose run e2e-electron'
 				}
 		}
 	}
