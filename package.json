@@ -6,6 +6,7 @@
   "scripts": {
     "clean:reports": "mkdir -p cypress/reports && rm -R -f cypress/reports/* && mkdir cypress/reports/mochareports",
     "pretest": "npm run clean:reports",
+    "run" : "cypress run",
     "scripts": "cypress run",
     "chrome:scripts": "cypress run --browser chrome ",
     "firefox:scripts": "cypress run --browser firefox ",

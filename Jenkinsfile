@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Run Cypress Tests'){
 				steps{
-					sh 'npm test'
+					sh 'npm run'
 				}
 		}
 	}
