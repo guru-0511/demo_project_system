@@ -3,6 +3,7 @@ pipeline {
 	stages {
 		stage('Clone Git Repo'){
 				steps{
+					sh 'rmdir /s /q demo_project_system'
                     sh "git clone https://github.com/guru-0511/demo_project_system.git"
 		    }
 		}
