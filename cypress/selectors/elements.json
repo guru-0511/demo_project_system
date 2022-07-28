@@ -7,7 +7,12 @@
     "couponStoreItem":"[data-uat='coupon-store-item']",
     "topStoreList":"div p[title]",
     "breadcrumb":"[data-vars-cgt='click_breadcrumb']",
-    "topStoreIcon":"[data-vars-cgt='click_coupon_top_stores_item']"
+    "topStoreIcon":"[data-vars-cgt='click_coupon_top_stores_item']",
+
+    "userName":"#user-name",
+    "password":"#password",
+    "loginBtn":"#login-button"
+
 
 
 }

@@ -1,0 +1,5 @@
+{
+    "title":"Products",
+    "bugerMenu":"#react-burger-menu-btn",
+    "sortOption":"[data-test='product_sort_container']"  
+}
